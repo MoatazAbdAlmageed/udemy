@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML5</title>
+    <title>CSS</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
     <style>
@@ -18,32 +18,55 @@
         background: #1a090d;
         color: #fff;
         font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        line-height: 1.5em;
+      }
+      h1,
+      mark {
+        font-weight: bolder;
+      }
+      .sm {
+      }
+      .md {
+      }
+      .px {
+      }
+      .em {
+      }
+
+      .normal {
+        font-weight: normal;
+      }
+      .bolder {
+        font-weight: bolder;
+      }
+      .num {
+        font-weight: 400;
       }
     </style>
   </head>
   <body>
-    <h1>units</h1>
+    <h1>Units</h1>
     <ul>
       <li>
-        absolute
-
+        <mark class="bolder">absolute</mark>
         <ul>
           <li>cm</li>
           <li>mm</li>
           <li>in</li>
-          <li>px</li>
+          <li><b>px</b></li>
           <li>pt</li>
           <li>pc</li>
         </ul>
       </li>
 
-      <li>relative</li>
+      <li><mark>relative</mark></li>
       <ul>
         <li>%</li>
-        <li>em</li>
-        <li>rem</li>
-        <li>vw</li>
-        <li>vh</li>
+        <li>em (parent font size)</li>
+        <li>rem(Root font size)</li>
+        <li>vw(viewport width)</li>
+        <li>vh(viewport width)</li>
       </ul>
     </ul>
   </body>
